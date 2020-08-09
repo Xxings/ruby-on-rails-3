@@ -38,7 +38,7 @@ Ruby on Rails 5.2.4.3
 
 * [Simple_form](https://rubygems.org/gems/simple_form/versions/5.0.2)
 
-> 아바타 추가
+> gravatar의 아바타 추가
 
 * [gravatar-image-tag](https://rubygems.org/gems/gravatar_image_tag/versions/1.2.0)
 
@@ -48,7 +48,7 @@ Ruby on Rails 5.2.4.3
 
 ## Branch
 
-feature-1-tweet : 환경세팅 및 아래의 작업
+**feature-1-tweet : 환경세팅 및 아래의 작업**
 
 * Guard
 
@@ -71,7 +71,7 @@ https://bulma.io/documentation/components/navbar/
 
 
 
-feature-2-feed : Feed css
+**feature-2-feed : Feed css**
 
 ​		font-awesome(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css)
 
@@ -81,7 +81,7 @@ feature-2-feed : Feed css
 
 <img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ghl0jg3xcfj30jy07uglz.jpg" alt="image-20200810011349323" style="zoom: 33%;" />
 
-feature-3-follow
+**feature-3-follow**
 
 > undefined method `model_name' for nil:NilClass
 
@@ -89,7 +89,7 @@ feature-3-follow
 
 ![image-20200810024941839](https://tva1.sinaimg.cn/large/007S8ZIlgy1ghl3b7h7zmj31ng0hi40g.jpg)
 
-Feature-4-users
+**Feature-4-users**
 
 redirect_to root_path
 
@@ -144,3 +144,18 @@ uninitialized constant Tweet::user /// Foreginkey 수정후 db:migration 안해�
 
 ![image-20200810040320178](https://tva1.sinaimg.cn/large/007S8ZIlgy1ghl5ftngxtj324s0miacv.jpg)
 
+
+
+**Feature-5-Auth**
+
+user_session
+
+User_registration
+
+user_signed_in
+
+current_user
+
+![image-20200810073028880](https://tva1.sinaimg.cn/large/007S8ZIlgy1ghlbfd4xo1j326u0q6af8.jpg)
+
+![image-20200810073041781](https://tva1.sinaimg.cn/large/007S8ZIlgy1ghlbfkp8pdj32760pcadv.jpg)
