@@ -81,3 +81,10 @@ feature-2-feed : Feed css
 
 <img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ghl0jg3xcfj30jy07uglz.jpg" alt="image-20200810011349323" style="zoom: 33%;" />
 
+feature-3-follow
+
+> undefined method `model_name' for nil:NilClass
+
+말그대로 nil - show부분에 render했지만 바인드안됨
+
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ghl36lrxo0j31n20goabv.jpg" alt="image-20200810024516109" style="zoom:50%;" />
