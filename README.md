@@ -30,6 +30,8 @@ Ruby on Rails 5.2.4.3
 
 ### :Operation
 
+> CSS module
+
 * [bulma-rails](https://rubygems.org/gems/bulma-rails/versions/0.6.1)
 
 > 간편 Form
@@ -59,5 +61,9 @@ bundle exec guard init
 rails g simple_form:install
 rails g devise:install
 rails g devise:view
+
+bundle exec guard
 ```
+
+https://bulma.io/documentation/components/navbar/
 
