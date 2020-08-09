@@ -67,3 +67,17 @@ bundle exec guard
 
 https://bulma.io/documentation/components/navbar/
 
+![image-20200810004129196](https://tva1.sinaimg.cn/large/007S8ZIlgy1ghkzlsvhczj31410430st.jpg)
+
+
+
+feature-2-feed : Feed css
+
+​		font-awesome(https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css)
+
+​		 Feed CRUD
+
+​		![image-20200810010524798](https://tva1.sinaimg.cn/large/007S8ZIlgy1ghl0aptn8mj30rf04vmxt.jpg)
+
+<img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ghl0jg3xcfj30jy07uglz.jpg" alt="image-20200810011349323" style="zoom: 33%;" />
+
