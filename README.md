@@ -99,5 +99,48 @@ redirect_to root_path
 rails g devise User
 ```
 
+![image-20200810025506378](https://tva1.sinaimg.cn/large/007S8ZIlgy1ghl3guale8j30xc083dj3.jpg)
 
+```bash
+ rails g migration AddFieldsToUsers
+```
+
+
+
+* emmet 다시한번 정리 (헷갈림)
+
+Tweets N : user 1
+
+belongs_to :user, class_name: "user", foreign_key: "user_id"
+
+has_many :tweets  
+
+```bash
+rails g migration AddUserIdToTweets user_id:integer
+```
+
+
+
+rails c
+
+```
+@user = User
+User.connection
+```
+
+![image-20200810033911633](https://tva1.sinaimg.cn/large/007S8ZIlgy1ghl4qphdzcj30z302faag.jpg)
+
+
+
+[devise docs](https://github.com/heartcombo/devise)
+
+![image-20200810034412474](https://tva1.sinaimg.cn/large/007S8ZIlgy1ghl4vx871tj30yu00r748.jpg)
+
+name, username 안들어가는 문제 -> routes.rb에서 :controllers를 추가 안함.
+
+![image-20200810034815858](https://tva1.sinaimg.cn/large/007S8ZIlgy1ghl505buxaj3156016wej.jpg)
+
+uninitialized constant Tweet::user /// Foreginkey 수정후 db:migration 안해서 생긴문제
+
+![image-20200810040320178](https://tva1.sinaimg.cn/large/007S8ZIlgy1ghl5ftngxtj324s0miacv.jpg)
 
