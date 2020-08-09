@@ -87,4 +87,17 @@ feature-3-follow
 
 말그대로 nil - show부분에 render했지만 바인드안됨
 
-<img src="https://tva1.sinaimg.cn/large/007S8ZIlgy1ghl36lrxo0j31n20goabv.jpg" alt="image-20200810024516109" style="zoom:50%;" />
+![image-20200810024941839](https://tva1.sinaimg.cn/large/007S8ZIlgy1ghl3b7h7zmj31ng0hi40g.jpg)
+
+Feature-4-users
+
+redirect_to root_path
+
+> cf) ruby로 만들어졌는는지 확인하는 방법 : 
+
+```bash
+rails g devise User
+```
+
+
+
